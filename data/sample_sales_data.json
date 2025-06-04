@@ -1,0 +1,47 @@
+{
+	"transaction_id": "TRX-100000",
+	"date": "2023-11-19",
+	"product":
+		{
+			"id": "PROD-7509",
+			"name": "Product-364",
+			"category": "Home & Kitchen",
+			"specifications":
+			{
+				"weight": 9.36,
+				"dimensions":
+				{
+					"length": 23.14,
+					"width": 28.69,
+					"height": 47.93
+				}
+			}
+		},
+	"customer":
+		{
+			"id": "CUST-1537",
+			"location":
+			{
+				"country": "India",
+				"city": "City-11"
+			}
+		},
+	"payment":
+		{
+			"method": "UPI",
+			"amount": 380.73,
+			"currency": "USD",
+			"status": "pending",
+			"details":
+			{
+				"transaction_fee": 8.77,
+				"tax": 14.15
+			}
+		},
+	"shipping":
+		{
+			"method": "Priority",
+			"cost": 45.87,
+			"estimated_days": 5
+		}
+}
